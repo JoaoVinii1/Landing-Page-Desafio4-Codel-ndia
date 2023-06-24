@@ -1,9 +1,9 @@
-<h1>LandingPage Login <img src="https://github.com/JoaoVinii1/Landing-Page-Desafio4-Codel-ndia/blob/main/CSS/image/piscadela.png" width="50px"</img> </h1>
+<h1>LandingPage Login <img src="https://github.com/JoaoVinii1/Landing-Page-Desafio4-Codel-ndia/blob/main/Assets/image/piscadela.png" width="50px"</img> </h1>
 
 <hr>
 
 <div>
-<img src="https://github.com/JoaoVinii1/Landing-Page-Desafio4-Codel-ndia/blob/main/CSS/image/Landing%20Page.png" width="700px" />
+<img src="https://github.com/JoaoVinii1/Landing-Page-Desafio4-Codel-ndia/blob/main/Assets/image/Landing%20Page.png" width="700px" />
 </div>
 
 <br>
