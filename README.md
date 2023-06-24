@@ -22,7 +22,7 @@ Para saber mais sobre o trabalho dele, você pode acessar o perfil do <a src="ht
 
 <br>
 
-[Acesse aqui o site](https://joaovinii1.github.io/Sneakers-Store/)
+[Acesse aqui o site](https://joaovinii1.github.io/Landing-Page-Desafio4-Codelandia/)
 
 ### Ferramentas utilizadas
 
