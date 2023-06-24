@@ -13,7 +13,10 @@ A landing page em questão é parte de um conjunto de desafios de HTML, CSS e JS
 por Iuri Silva, um profissional experiente na área. Esses desafios visam testar e aprimorar as habilidades dos participantes
 na marcação em HTML e estilização em CSS, permitindo que eles criem projetos práticos e interessantes.
 A página em destaque foi criada com base nessas diretrizes, demonstrando o conhecimento e a criatividade do desenvolvedor, Iuri Silva.
-Para saber mais sobre o trabalho dele, você pode acessar o perfil do <a src="https://www.linkedin.com/in/iuricode/">Iuri Silva<a/> no LinkedIn. 
+
+<br>
+<br>
+<a href="https://www.linkedin.com/in/joaovinii/"> <img src="https://icones.pro/wp-content/uploads/2021/03/icone-linkedin-ronde-originale.png" width="22px"></a> Você pode acessar meu linkedin aqui: <a href="https://www.linkedin.com/in/joaovinii/">João Vinicius</a>
 
 <br>
 <br>
