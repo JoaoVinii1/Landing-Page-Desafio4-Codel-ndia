@@ -1,10 +1,14 @@
-<h1>LandingPage Login <img>!(https://github.com/JoaoVinii1/Landing-Page-Desafio4-Codel-ndia/blob/main/CSS/image/piscadela.png) </h1>
+<h1>LandingPage Login <img src="https://github.com/JoaoVinii1/Landing-Page-Desafio4-Codel-ndia/blob/main/CSS/image/piscadela.png" width="50px"</img> </h1>
 
 <hr>
 
-<img>![Page]([https://user-images.githubusercontent.com/109637152/214471582-99b9f2df-cf21-400f-9c5f-f35f1d610a5a.jpg](https://github.com/JoaoVinii1/Landing-Page-Desafio4-Codel-ndia/blob/main/CSS/image/LandingPage.png)
+<div>
+<img src="" width="700px" />
+</div>
 
-
+<br>
+<br>
+<br>
 A landing page em questão é parte de um conjunto de desafios de HTML, CSS e JS promovido pelo grupo Codelândia,<br>
 desenvolvido por Iuri Silva, um profissional experiente na área. Esses desafios visam testar e aprimorar as habilidades<br>
 dos participantes nessas linguagens de programação, permitindo que eles criem projetos práticos e interessantes.<br>
