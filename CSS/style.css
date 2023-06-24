@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+:root {
+  --baseGray: #E8E8E8 ;
+  --baseGreen: #04C35C;
+  --buttonHoverOne: #12a557;
+  --baseDark: #1A202C;
+  --buttonHoverTwo: #2c3953;
+  --baseBack: #F7FAFC;
+  --linkColor: #2B6CB0;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+html{
+  font-size: 62,5%;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.containerCenter{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.containerImg {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var( --baseBack) ;
+}
+
+.containerImg img{
+  width: 50%;
+  height: 50%;
+  display: flex;
+}
+
+
+/* This is the form side (right) */
+
+ .containerLogIn{
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form{
+  height: 500px;
+}
+
+ .description h1{
+  color: var(--baseDark);
+  font-size: 2.2rem;
+  font-family: Merriweather;
+  font-weight: 700;
+ }
+
+.description p{
+  color: var(--baseDark);
+  font-size: 1.2rem;
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+}
+p img{ 
+  margin-left: 15px;
+  width: 36px;
+}
+.formGroup {
+  margin-top: 50px;
+ }
+
+
+ .boxGroup{
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.boxGroup label{
+  color: var(--baseDark);
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+
+ .boxGroup input{
+  padding-left: 10px;
+  color: var(--baseDark);
+  font-size: 0.9rem;
+  height: 50px;
+  width: 420px;
+  border-radius: 5px;
+  border: 1px solid #E8E8E8;
+}
+
+input:focus{
+  border: none;
+}
+
+ .buttonBox{
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  gap: 20px;
+}
+
+ .buttonBox button{
+  border: none;
+  height: 50px;
+  color: #FFF;
+  
+  
+  font-size: 1.2rem;
+  font-family: Lato;
+  font-weight: 700;
+
+  flex-shrink: 0;
+  border-radius: 5px;
+  background:var(--baseGreen);
+  cursor: pointer;
+}
+
+.buttonBox button:hover{
+  background: #03b154;
+  overflow: hidden;
+  transform: scale(1.1);
+  transition: 1s all ease;
+}
+
+
+.buttonBox #buttonDark {
+  background-color: var(--baseDark);
+}
+
+.buttonBox #buttonDark:hover {
+  background-color: var(--buttonHoverTwo);
+  overflow: hidden;
+  transform: scale(1.1);
+  transition: 1s all ease;
+}
+ 
+
+ #buttonDark img{
+  padding-right: 10px;
+ }
+
+.checkGroup{
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: var(--linkColor); 
+  font-weight: 700; 
+}
+a:hover{
+ color:var(--buttonHoverTwo);
+}
+
+.register {
+  position: relative;
+  top: 90px;
+}
+
+
+
+
+@media (max-width: 910px) {
+  .containerImg{
+      visibility: hidden;
+      width: 1px
+  }
+  .containerLogIn{
+      width: 100%;
+      margin: auto;    
+      display: flex;  
+  }
+
+
+}
+
+@media (max-width: 425px) {
+ .containerCenter{
+  
+  width: 450px;
+  height: 100vh;
+ }
+ 
+ form{
+  display: flex;
+  margin-left: 1rem;
+  flex-direction: column;
+ }
+
+ .description{
+  position: relative;
+  left: -9px;
+ }
+ .formGroup{
+  display: flex;
+  
+  flex-direction: column;
+  justify-content: center;
+ }
+
+ .boxGroup{
+  width: 95%;
+ }
+
+ .boxGroup input{
+  width: 100%;
+ }
+
+ .checkGroup{
+  width: 95%;
+ }
+ .buttonBox{
+  width: 96%;
+  
+ }
+  
+ }
+
+
+
